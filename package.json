@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "(A node application)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CWheelsRun/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "(node",
+    "jest",
+    "inquirer)"
+  ],
+  "author": "Corey Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CWheelsRun/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/CWheelsRun/Team-Profile-Generator#readme"
+}
