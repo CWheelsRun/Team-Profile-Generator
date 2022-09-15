@@ -24,7 +24,7 @@ This is a Node.js application. It takes information via command line input and b
 ![Screenshot](./images/team4.png)
 ## Video Walkthrough:
 
-https://www.youtube.com/watch?v=4tjXAcsa4Zc&ab_channel=Weelz
+https://www.youtube.com/watch?v=rFXUsAMEaw4&ab_channel=Weelz
 
 # Usage
 
