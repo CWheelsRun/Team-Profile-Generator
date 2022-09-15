@@ -1,5 +1,5 @@
 const Intern = require("../lib/Intern");
-const intern = new Intern("name", "123", "email", "intern", "school");
+const intern = new Intern("name", 123, "email", "intern", "school");
 
 describe("Intern", () => {
   describe("getName", () => {
@@ -36,10 +36,10 @@ describe("Intern", () => {
   });
   describe("getSchool", () => {
     it("gets the Intern School", () => {
-      expect(intern.getschool()).toEqual("school");
+      expect(intern.getSchool()).toEqual("school");
     });
     it("should be a string", () => {
-      expect(typeof intern.getschool()).toEqual("string");
+      expect(typeof intern.getSchool()).toEqual("string");
     });
   });
 });

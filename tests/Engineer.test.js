@@ -1,5 +1,5 @@
 const Engineer = require("../lib/Engineer");
-const engineer = new Engineer("name", "123", "email", "engineer", "github");
+const engineer = new Engineer("name", 123, "email", "engineer", "github");
 
 describe("Engineer", () => {
   describe("getName", () => {
