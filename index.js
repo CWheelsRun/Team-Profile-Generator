@@ -87,7 +87,7 @@ const createManager = async () => {
     },
     {
       type: "input",
-      name: "number",
+      name: "officeNumber",
       message: "What is the Team Manager's office number?",
       validate: (input) => {
         if (input) {
