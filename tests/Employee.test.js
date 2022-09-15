@@ -28,7 +28,7 @@ describe("Employee", () => {
   });
   describe("getRole", () => {
     it("gets the Employee Role", () => {
-      expect(employee.getRole()).toEqual("employee");
+      expect(employee.getRole()).toEqual("Employee");
     });
     it("should be a string", () => {
       expect(typeof employee.getRole()).toEqual("string");

@@ -1,34 +1,10 @@
 const Manager = require("../lib/Manager");
-const manager = new Manager("name", 123, "email", "manager", 246);
+const manager = new Manager("name", 123, "email", 246);
 
 describe("Manager", () => {
-  describe("getName", () => {
-    it("gets the Manager Name", () => {
-      expect(manager.getName()).toEqual("name");
-    });
-    it("should be a string", () => {
-      expect(typeof manager.getName()).toEqual("string");
-    });
-  });
-  describe("getId", () => {
-    it("gets the Manager ID", () => {
-      expect(manager.getId()).toEqual(123);
-    });
-    it("should be a number", () => {
-      expect(typeof manager.getId()).toEqual("number");
-    });
-  });
-  describe("getEmail", () => {
-    it("gets the Manager Email", () => {
-      expect(manager.getEmail()).toEqual("email");
-    });
-    it("should be a string", () => {
-      expect(typeof manager.getEmail()).toEqual("string");
-    });
-  });
   describe("getRole", () => {
     it("gets the Manager Role", () => {
-      expect(manager.getRole()).toEqual("manager");
+      expect(manager.getRole()).toEqual("Manager");
     });
     it("should be a string", () => {
       expect(typeof manager.getRole()).toEqual("string");
