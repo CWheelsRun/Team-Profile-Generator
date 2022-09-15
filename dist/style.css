@@ -19,11 +19,6 @@ main {
     background-color:indigo
 }
 
-.row {
-    width: 90%;
-    margin: 50px;
-}
-
 .card {
     width: 250px;
     height: 100%;
