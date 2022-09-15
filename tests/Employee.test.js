@@ -1,5 +1,5 @@
 const Employee = require("../lib/Employee");
-const employee = new Employee("name", "1234", "email", "employee");
+const employee = new Employee("name", "123", "email", "employee");
 
 describe("Employee", () => {
   describe("getName", () => {
@@ -12,7 +12,7 @@ describe("Employee", () => {
   });
   describe("getId", () => {
     it("gets the Employee ID", () => {
-      expect(employee.getId()).toEqual(1234);
+      expect(employee.getId()).toEqual(123);
     });
     it("should be a number", () => {
       expect(typeof employee.getId()).toEqual("number");

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner {
+    width:100%;
+    padding:20px 10px;
+    text-align:center;
+    font-size:50px;
+    color:#FFF;
+    background-color:indigo
+}
+
+.row {
+    width: 75%;
+}
+
+.card {
+    width: 250px;
+    height: 100%;
+    filter: drop-shadow(5px 5px 5px grey);
+    border-radius: 5px;
+}
+
+.card-body {
+    background-color:lightblue;
+}
+
+.card-title {
+    font-weight:bold;
+}

@@ -1,5 +1,5 @@
 const Manager = require("../lib/Manager");
-const manager = new Manager("name", "1234", "email", "manager", "246");
+const manager = new Manager("name", "123", "email", "manager", "246");
 
 describe("Manager", () => {
   describe("getName", () => {
@@ -12,7 +12,7 @@ describe("Manager", () => {
   });
   describe("getId", () => {
     it("gets the Manager ID", () => {
-      expect(manager.getId()).toEqual(1234);
+      expect(manager.getId()).toEqual(123);
     });
     it("should be a number", () => {
       expect(typeof manager.getId()).toEqual("number");
